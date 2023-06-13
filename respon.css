@@ -1,0 +1,37 @@
+
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+@media scrren and (max-width: 800px){
+    #titulop{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    #bemv{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(43, 21, 63);
+        background-image: none;
+    }
+
+    #titulop{
+        font-size: 30px;
+        margin-top: 55px;
+    }
+    #bemv{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+   #botao{
+       margin-left: 30px;
+    }
+}
